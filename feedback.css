@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background: #4e54c8; 
+    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  
+    background: linear-gradient(to right, #8f94fb, #4e54c8);     
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
+  height:100vh;
+}
+
+.panel-container {
+  background-color: #1e2436;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  font-size: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  max-width: 400px;
+  color:#4e54c8;
+  margin:10% auto 2% auto;
+}
+
+.panel-container strong {
+  line-height: 40px;
+  font-size: 30px;
+  color:rgb(224, 234, 124);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.ratings-container {
+  border-radius: 30px;
+  display: flex;
+  margin: 20px 0;
+  background-color: #2f374b;
+}
+
+.rating {
+  flex: 1;
+  cursor: pointer;
+  padding: 20px;
+  margin: 10px 5px;
+}
+
+.rating:hover,
+.rating.active {
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(146, 202, 202, 0.1);
+  background-color:rgba(160, 173, 173, 0.1) ;
+}
+
+.rating img {
+  width: 40px;
+}
+
+.rating small {
+  color: #fff;
+  display: inline-block;
+  margin: 10px 0 0;
+}
+
+.rating:hover small,
+.rating.active small {
+  color: #c8caed;
+}
+
+.btn {
+  background-color: #8288f2;
+  color: rgb(20, 19, 19);
+  border: 0;
+  border-radius: 4px;
+  padding: 12px 30px;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+.btn:hover{
+  background-color: #cdcdd8;
+}
+
+.fa-heart {
+  color: red;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+
+.credit a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .credit {
+      text-align: center;
+  }
+#toplogo{
+  block-size: 70px;
+  padding-bottom: 20px; 
+}
+#label{
+  color:rgb(246, 248, 250);
+  font-style: italic;
+  font-size: larger;
+}
+#pankaj{
+  border-radius: 10px;
+  width: 250px;
+}
